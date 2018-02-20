@@ -1,9 +1,6 @@
 var eSamantha = document.getElementById("email");
 var websiteContainer = document.getElementById("websites");
 var hemiSulContainer = document.getElementById("hemiSul");
-//var btn1 = document.getElementById("btn1")
-//var btn2 = document.getElementById("btn2")
-//var btn3 = document.getElementById("btn3")
 
 var dados = [];
 
@@ -17,9 +14,6 @@ ourRequest.onload = function(){
 };
 ourRequest.send();
 
-//btn1.addEventListener("click", function(){
-//	renderHTML(dados);
-//});
 
 function renderHTML(wsite){
 	var allWebsites = "";
@@ -35,9 +29,6 @@ function renderHTML(wsite){
 	
 }
 
-//btn2.addEventListener("click", function(){
-//	mostrarHTML(dados);
-//});
 
 function mostrarHTML(samantha){
 	var emailSa = "";
@@ -51,9 +42,6 @@ function mostrarHTML(samantha){
 	eSamantha.innerHTML = emailSa;
 }
 
-//btn3.addEventListener("click", function(){
-//	showHTML(dados);
-//});
 
 function showHTML(total){
 	
